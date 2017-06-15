@@ -30,16 +30,22 @@ $ source ~/.bahsrc
 Uploadfiles.io Business plan users can find their USER ID and AUTH KEY in their Uploadfiles.io dashboard.
 
 ### Usage
-The ufilesup command is used to upload a file you your Uploadfiles.io account. 
+The ufile put command is used to upload a file you your Uploadfiles.io account. 
 ```sh
-$ ufilesup <file to upload>
+$ ufile put <file to upload>
 ```
-The ufilesdown command is used to download a file from you Uploadfiles.io account. 
+The ufile get command is used to download a file from you Uploadfiles.io account. 
 ```sh
-$ ufilesdown <SLUG> <SAVE PATH>
+$ ufile get <SLUG> <OPTIONAL SAVE PATH>
 ```
-ufiles down can be used with or without a save pathe specified. if no save path is specified,the file will be save to the current directory using the slug as the filename. 
+ufile get can be used with or without a save pathe specified. if no save path is specified,the file will be save to the current directory using the slug as the filename. 
 
+
+The ufile auth command is used to change your credentials. 
+```sh
+$ ufile auth <USER ID> <AUTH KEY>
+```
+Additionally this allows you the freedom to set up the credential config without running the install script.  This is included to ensure mobility of the ~/.bash_aliases file for users that regularly transfer their aliases from machine to machine. 
 License
 ----
 
