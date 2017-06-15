@@ -25,7 +25,7 @@ $ git clone https://github.com/osteth/ufiles-bash.git
 $ cd ufiles-bash
 $ chmod +x install.sh
 $ install.sh <USER ID> <AUTH KEY>
-$ source ~/.bahsrc
+$ source ~/.bash_aliases
 ```
 Uploadfiles.io Business plan users can find their USER ID and AUTH KEY in their Uploadfiles.io dashboard.
 
