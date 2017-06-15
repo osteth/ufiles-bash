@@ -46,6 +46,8 @@ The ufile auth command is used to change your credentials.
 $ ufile auth <USER ID> <AUTH KEY>
 ```
 Additionally this allows you the freedom to set up the credential config without running the install script.  This is included to ensure mobility of the ~/.bash_aliases file for users that regularly transfer their aliases from machine to machine. 
+
+
 License
 ----
 
